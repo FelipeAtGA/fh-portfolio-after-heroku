@@ -1,0 +1,25 @@
+.PsAiwrapper {
+  width: 95%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.projectWrapper {
+  width: 29%;
+  padding: 20px 20px 5px 20px;
+  border: 1px solid;
+  border-radius: 4px;
+  margin: 0 2% 4% 2%;
+  float: left;
+}
+
+.projectimage {
+  width: 100%;
+  height: 223px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}

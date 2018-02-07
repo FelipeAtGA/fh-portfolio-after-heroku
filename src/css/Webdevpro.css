@@ -1,0 +1,80 @@
+.webdevproGridWrapper {
+  margin: 25px 0;
+  /* background-color: #f5f8f9; */
+  border-radius: 5px;
+  border: 1px solid;
+  padding: 20px;
+}
+
+.pageTitle {
+  margin: 50px 0;
+  font-weight: bold;
+}
+
+.imageWrapper {
+  width: 30%;
+  float: left;
+  margin-right: 4%;
+}
+
+.imageWrapper img {
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.workDescription {
+  width: 35%;
+  float: left;
+}
+
+.workDescription h3, .workTech h3 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.linkToLiveApp, .linkToAppInGithub {
+  margin: 10px 10px 10px 0;
+  display: inline-block;
+  background: #000;
+  border-radius: 4px;
+  padding: 5px 8px;
+  color: #fff;
+}
+
+.linkToLiveApp:hover, .linkToAppInGithub:hover, .linkToLiveApp:focus, .linkToAppInGithub:focus {
+  color: #00ff00;
+  border-radius: 1px solid;
+}
+
+.fa.fa-github.AppBttn {
+  font-size: 16px;
+}
+
+.workTech {
+  width: 25%;
+  float: right;
+}
+
+.workTech ul.tiles {
+  padding: 0;
+}
+
+.listTech {
+  display: inline-block;
+  width: auto;
+  padding: 1px 7px;
+  margin: 5px;
+  border-radius: 4px;
+  border: 1px solid;
+}
+
+.Nextsteps {
+  list-style: none;
+}

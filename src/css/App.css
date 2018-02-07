@@ -1,0 +1,125 @@
+main{
+  width: 100%;
+}
+
+.homeImage {
+  width: 60%;
+  margin: 0 auto;
+  display: block;
+}
+
+.wrapper {
+  margin: 0 20px;
+  padding: 0 20px;
+}
+
+/*  BELOW IS THE CSS FOR THE FIRST HOME PAGE TRIALS */
+
+#logo {
+  height: auto;
+}
+
+.branding {
+  display: flex;
+  padding: 20px;
+  width: 637px;
+  margin: 0 auto;
+}
+
+.branding div.name {
+  text-align: right;
+  padding-top: 40px;
+}
+
+#logo img {
+  width: 200px;
+  padding: 15px;
+}
+
+.wraper {
+  margin: 0 20px;
+}
+
+.wrapper-branding {
+  background-color: rgba(126, 204, 204, .8);
+}
+
+/*
+.brand {
+  letter-spacing: .4em;
+  font-size: 1.5em;
+  text-align: right;
+}
+*/
+
+p.tagLine {
+  font-size: 1.5rem;
+  letter-spacing: 0.3em;
+  padding-right: 6px;
+}
+
+.App {
+  /* text-align: center; */
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #000;
+  padding: 16px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.Nav {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+}
+
+.Nav li {
+
+}
+
+.navbar-toggle.collapsed:hover {
+  background-color: #ccc;
+}
+
+.navbar-toggle.collapsed:hover span.icon-bar {
+  background-color: #000;
+}
+
+.typeWriter {
+  /*background: yellow;
+  padding: 20px;
+  border-radius: 25px;*/
+  max-width: 540px;
+  text-align: left;
+  position: absolute;
+  z-index: 1;
+  margin: 0 0 0 3%;
+  padding: 20px;
+}
+
+.welcomeTxt{
+  line-height: 1.5;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
