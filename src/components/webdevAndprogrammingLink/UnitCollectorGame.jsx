@@ -32,7 +32,7 @@ class UnitCollectorApp extends Component {
             create Unit Collector from nostalgia for arcade games and the need
             to create a 2D game.
             </p>
-            <a className="linkToLiveApp" href="http://unit-collector.bitballoon.com/" target="_black">Live app</a>
+            <a className="linkToLiveApp" href="http://unit-collector.bitballoon.com/" target="_black">Live app &nbsp;<i className="fa fa-external-link" aria-hidden="true" /></a>
             <a className="linkToAppInGithub" href="https://github.com/FelipeAtGA/Unit-Collector" target="_black">App on &nbsp;<i className="fa fa-github AppBttn" aria-hidden="true" /></a>
           </div>
           <div className="workTech">

@@ -33,7 +33,7 @@ class MuseumVisitApp extends Component {
             using Json, Axios, PostgreSQL, node packages (npm), and Unix
             command line. The project was completed in 14 days.
             </p>
-            <a className="linkToLiveApp" href="https://dry-plains-91322.herokuapp.com/" target="_black">Live app</a>
+            <a className="linkToLiveApp" href="https://dry-plains-91322.herokuapp.com/" target="_black">Live app &nbsp;<i className="fa fa-external-link" aria-hidden="true" /></a>
             <a className="linkToAppInGithub" href="https://github.com/FelipeAtGA/CH-Plan-A-Visit" target="_black">App on &nbsp;<i className="fa fa-github AppBttn" aria-hidden="true" /></a>
           </div>
           <div className="workTech">

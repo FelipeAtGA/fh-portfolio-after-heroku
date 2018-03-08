@@ -34,7 +34,7 @@ class Mywebsite extends Component {
               of my passion for JavaScript and my love for the entertainment
               business and emerging media.
             </p>
-            <a className="linkToLiveApp" href="http://localhost:3000/" target="_black">Live app</a>
+            <a className="linkToLiveApp" href="http://localhost:3000/" target="_black">Live app &nbsp;<i className="fa fa-external-link" aria-hidden="true" /></a>
             <a className="linkToAppInGithub" href="https://github.com/FelipeAtGA/fh-portfolio" target="_black">App on &nbsp;<i className="fa fa-github AppBttn" aria-hidden="true" /></a>
           </div>
           <div className="workTech">
