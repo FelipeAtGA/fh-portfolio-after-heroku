@@ -46,11 +46,14 @@
   border-radius: 4px;
   padding: 5px 8px;
   color: #fff;
+  border: 1px solid;
 }
 
 .linkToLiveApp:hover, .linkToAppInGithub:hover, .linkToLiveApp:focus, .linkToAppInGithub:focus {
-  color: #00ff00;
-  border-radius: 1px solid;
+  color: #000;
+  background: #fff;
+  border: 1px solid;
+  text-decoration: none;
 }
 
 .fa.fa-github.AppBttn {
