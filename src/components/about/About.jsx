@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Aboutimage from '../../img/fhR.jpg';
-import Resume from '../../img/resume122117-v2b-img.jpg';
+import Resume from '../../img/resume122117-v2d-5.jpg';
 import '../../css/About.css';
 
 class About extends Component {
