@@ -48,11 +48,15 @@
   display: inline-block;
   margin-left: 20px;
   -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 .contactButton {
   border-radius: 4px;
   -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 .aboutResumeWrapper {
