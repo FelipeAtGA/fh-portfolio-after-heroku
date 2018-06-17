@@ -47,10 +47,12 @@
 .bttnResume {
   display: inline-block;
   margin-left: 20px;
+  -webkit-appearance: none;
 }
 
 .contactButton {
   border-radius: 4px;
+  -webkit-appearance: none;
 }
 
 .aboutResumeWrapper {
