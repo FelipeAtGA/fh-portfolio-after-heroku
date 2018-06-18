@@ -88,6 +88,7 @@ li.dropdown {
   }
 
   .nav_wrapper_mobil {
+    display: block;
     float: right;
     height: 10px;
     overflow: hidden;
