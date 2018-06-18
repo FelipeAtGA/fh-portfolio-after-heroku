@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../css/Navbar.css';
 import logo from '../img/fh_logo_squared.png';
+import NavMobil from './NavMobil';
 
 const Navigation = () => {
   const element = document.getElementsByTagName('span');
@@ -58,6 +59,7 @@ const Navigation = () => {
         </li>
 
       </ul>
+      <NavMobil />
     </nav>
   );
 };
