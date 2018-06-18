@@ -75,3 +75,23 @@ li.dropdown {
   background-color: #f5f8f9;
   border-radius: 4px;
 }
+
+.nav_wrapper_mobil {
+  display: none;
+}
+
+/* media queries */
+
+@media screen (max-width: 480px){
+  nav ul {
+    display: none;
+  }
+
+  .nav_wrapper_mobil {
+    float: right;
+    height: 10px;
+    overflow: hidden;
+    position: relative;
+    z-index: 100;
+  }
+}
