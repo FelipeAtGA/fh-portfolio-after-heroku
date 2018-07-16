@@ -23,7 +23,7 @@ class About extends Component {
           <div className="aboutTextWrapper">
             <div>
               <h2>Felipe Hernandez - Web Developer</h2>
-              <p>I am passionate about problem solving and creating.
+              <p>I am passionate about problem solving and creativity.
               So, I found programming to be the perfect tool for my
               personality and passion. I have a BA in Emerging Media
               Studies from Hunter College and a Web Developer
