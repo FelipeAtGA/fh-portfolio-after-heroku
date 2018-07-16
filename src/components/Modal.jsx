@@ -12,7 +12,7 @@ import Characterstudy from '../video/character_study.mp4';
 import Psa from '../video/psa.mp4';
 import Definingspace from '../video/definingSpace.mp4';
 import Processingsketch from '../video/sketchIntoVideo4.mp4';
-import Resume from '../img/resume122117-v2d-5.jpg';
+import Resume from '../img/resume070218-v2.jpg';
 import '../css/Modal.css';
 
 class Modal extends Component {
