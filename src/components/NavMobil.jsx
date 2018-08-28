@@ -18,9 +18,7 @@ const NavMobil = () => {
   return (
     <div className="nav_wrapper_mobil">
       <div className="burger">
-        <div className="bar1" />
-        <div className="bar2" />
-        <div className="bar3" />
+        <p>menu</p>
       </div>
       <ul className="display_ul">
         <li><Link to="/">Home</Link></li>
