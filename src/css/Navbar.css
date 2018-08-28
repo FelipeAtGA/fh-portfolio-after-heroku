@@ -80,7 +80,7 @@ li.dropdown {
   display: none;
 }
 
-/* media queries */
+/* media queries
 
 @media screen and (max-width: 480px){
   nav ul {
@@ -111,3 +111,4 @@ li.dropdown {
       transition: 0.4s;
   }
 }
+*/
