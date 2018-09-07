@@ -22,50 +22,52 @@ class NavMobil extends Component {
       element[0].style.backgroundColor = 'inherit';
       element[0].style.color = '#000';
     }
-    console.log(this.props)
     return (
-    <div className="nav_wrapper_mobil">
-      <div
-        className="burger"
-        onClick={() => { this.props.onOrOffNavMobil(true); }}
-      >
-        <p>menu</p>
-      </div>
-      <ul className="display_ul">
-        <li><Link to="/">Home</Link></li>
-        <li
-          className="dropdown"
-          onMouseOver={active}
-          onMouseOut={unactive}
-          onFocus={() => undefined}
-          onBlur={() => undefined}
+      <div className="nav_wrapper_mobil">
+        <div
+          className="burger"
+          role="button"
+          tabIndex={0}
+          onClick={() => { this.props.onOrOffNavMobil(true); }}
+          onKeyDown={() => { this.props.onOrOffNavMobil(true); }}
         >
-          <span>Work &nbsp;<i className="fa fa-caret-down" aria-hidden="true" /></span>
-          <ul
-            className="dropdown-content"
+          <p>menu</p>
+        </div>
+        <ul className="display_ul">
+          <li><Link to="/">Home</Link></li>
+          <li
+            className="dropdown"
             onMouseOver={active}
             onMouseOut={unactive}
             onFocus={() => undefined}
             onBlur={() => undefined}
           >
-            <li><Link to="/Webdevpro"> Web Development</Link></li>
-            <li><Link to="/PsAi"> Photoshop / Illustrator</Link></li>
-            <li><Link to="videoAnimation"> Video / Animation</Link></li>
-          </ul>
-        </li>
-        <li><Link to="/about">About</Link></li>
-        <li>
-          <a href="https://github.com/FelipeAtGA" target="_blank" rel="noopener noreferrer">
-            <i className="fa fa-github" aria-hidden="true" />
-          </a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/felipe-hernandez/" target="_blank" rel="noopener noreferrer">
-            <i className="fa fa-linkedin" aria-hidden="true" />
-          </a>
-        </li>
-      </ul>
-    </div>
+            <span>Work &nbsp;<i className="fa fa-caret-down" aria-hidden="true" /></span>
+            <ul
+              className="dropdown-content"
+              onMouseOver={active}
+              onMouseOut={unactive}
+              onFocus={() => undefined}
+              onBlur={() => undefined}
+            >
+              <li><Link to="/Webdevpro"> Web Development</Link></li>
+              <li><Link to="/PsAi"> Photoshop / Illustrator</Link></li>
+              <li><Link to="videoAnimation"> Video / Animation</Link></li>
+            </ul>
+          </li>
+          <li><Link to="/about">About</Link></li>
+          <li>
+            <a href="https://github.com/FelipeAtGA" target="_blank" rel="noopener noreferrer">
+              <i className="fa fa-github" aria-hidden="true" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/felipe-hernandez/" target="_blank" rel="noopener noreferrer">
+              <i className="fa fa-linkedin" aria-hidden="true" />
+            </a>
+          </li>
+        </ul>
+      </div>
     );
   }
 }
