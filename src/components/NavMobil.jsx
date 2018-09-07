@@ -1,23 +1,34 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import '../css/Navbar.css';
 
-const NavMobil = () => {
-  const element = document.getElementsByTagName('span');
 
-  function active() {
-    element[0].style.backgroundColor = '#000';
-    element[0].style.color = '#fff';
+class NavMobil extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+    };
   }
 
-  function unactive() {
-    element[0].style.backgroundColor = 'inherit';
-    element[0].style.color = '#000';
-  }
+  render() {
+    const element = document.getElementsByTagName('span');
 
-  return (
+    function active() {
+      element[0].style.backgroundColor = '#000';
+      element[0].style.color = '#fff';
+    }
+
+    function unactive() {
+      element[0].style.backgroundColor = 'inherit';
+      element[0].style.color = '#000';
+    }
+    console.log(this.props)
+    return (
     <div className="nav_wrapper_mobil">
-      <div className="burger">
+      <div
+        className="burger"
+        onClick={() => { this.props.onOrOffNavMobil(true); }}
+      >
         <p>menu</p>
       </div>
       <ul className="display_ul">
@@ -55,7 +66,8 @@ const NavMobil = () => {
         </li>
       </ul>
     </div>
-  );
-};
+    );
+  }
+}
 
 export default NavMobil;
