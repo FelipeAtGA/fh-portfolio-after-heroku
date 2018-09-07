@@ -24,7 +24,7 @@ class Modal extends Component {
 
   render() {
     let imageToRender = null;
-    let renderVideo = this.props.condi;
+    const renderVideo = this.props.condi;
     let videoToRender = null;
     if (this.props.imageUri === 'unitCollectorImage') {
       imageToRender = unitCollectorGame;
