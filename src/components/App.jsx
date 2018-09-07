@@ -22,6 +22,19 @@ class App extends Component {
     this.clipboardCopy = this.clipboardCopy.bind(this);
   }
 
+  onOrOffNavMobil() {
+    const initialState = this.state.activeNavMobil;
+    this.setState({
+      activeNavMobil: !initialState,
+    });
+    const menu = document.getElementsByClassName('display_ul');
+    if (this.state.activeNavMobil) {
+      menu[0].style.display = 'block';
+    } else {
+      menu[0].style.display = 'none';
+    }
+  }
+
   setModal(image, conditional) {
     this.setState({
       renderVideo: conditional,
@@ -43,24 +56,9 @@ class App extends Component {
     }
   }
 
-  onOrOffNavMobil() {
-    const initialState = this.state.activeNavMobil;
-    this.setState({
-      activeNavMobil: !initialState,
-    });
-    const menu = document.getElementsByClassName('display_ul');
-    console.log('this is meny ', menu)
-    if(this.state.activeNavMobil) {
-      menu[0].style.display = 'block';
-    } else {
-     menu[0].style.display = 'none';
-    }
-  }
-
-  clipboardCopy(text) {
+  clipboardCopy() {
     document.querySelector('#email').select();
     document.execCommand('copy');
-
   }
 
   render() {
