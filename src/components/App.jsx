@@ -15,8 +15,10 @@ class App extends Component {
       modal: false,
       img4modal: '',
       renderVideo: false,
+      activeNavMobil: true,
     };
     this.setModal = this.setModal.bind(this);
+    this.onOrOffNavMobil = this.onOrOffNavMobil.bind(this);
     this.clipboardCopy = this.clipboardCopy.bind(this);
   }
 
@@ -41,6 +43,20 @@ class App extends Component {
     }
   }
 
+  onOrOffNavMobil() {
+    const initialState = this.state.activeNavMobil;
+    this.setState({
+      activeNavMobil: !initialState,
+    });
+    const menu = document.getElementsByClassName('display_ul');
+    console.log('this is meny ', menu)
+    if(this.state.activeNavMobil) {
+      menu[0].style.display = 'block';
+    } else {
+     menu[0].style.display = 'none';
+    }
+  }
+
   clipboardCopy(text) {
     document.querySelector('#email').select();
     document.execCommand('copy');
@@ -55,7 +71,9 @@ class App extends Component {
           condi={this.state.renderVideo}
           setModal={this.setModal}
         />
-        <Header />
+        <Header
+          onOrOffNavMobil={this.onOrOffNavMobil}
+        />
         <main>
           <Switch>
             <Route
